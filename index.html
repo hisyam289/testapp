@@ -1,0 +1,36 @@
+<?php include('db.php'); ?>
+<?php include('header.php'); ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stock Management</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="manifest" href="manifest.json" />
+    <script>
+        navigator.serviceWorker.register("sw.js")
+    </script>
+</header>
+<body class="flex items-center justify-center min-h-screen bg-gray-800">
+    <main class="flex flex-col items-center p-4 space-y-8">
+        <h2 class="text-2xl text-[#FFFFFF] font-bold mt-[60px] mb-[40px]">Location Management</h2>
+        
+        <div class="flex justify-center">
+                <form action="view_location.php" method="get">
+                    <button type="submit" class="bg-lime-500 text-white font-bold py-2 px-4 rounded-md shadow-md hover:bg-lime-700">
+                        View Available Schedules
+                    </button>
+                </form>
+        </div>
+    </main>
+</body>
+
+<?php include('footer.php'); ?>
+
+</body>
+</html>
+
+

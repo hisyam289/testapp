@@ -1,7 +1,7 @@
 {
     "name": "Bateriku",
     "short_name": "Bateriku",
-    "start_url": "index.html",
+    "start_url": "/index.html",
     "display": "standalone",
     "description": "Delivery Management",
     "lang": "en",
